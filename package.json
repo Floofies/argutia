@@ -1,0 +1,27 @@
+{
+	"name": "arguita",
+	"version": "1.0.0",
+	"description": "A Babel plugin for basic code pruning.",
+	"keywords": [
+		"prune",
+		"preprocessor"
+	],
+	"homepage": "https://github.com/Floofies/arguita#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Floofies/arguita.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Floofies/arguita/issues"
+	},
+	"dependencies": {
+		"@babel/core": "",
+		"command-line-args": ""
+	},
+	"scripts": {
+		"test": "node ./bin/buildCLI.js"
+	},
+	"main": "src/Plugin.js",
+	"author": "Dani Glore",
+	"license": "MIT"
+}
