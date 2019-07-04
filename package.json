@@ -18,8 +18,8 @@
 		"@babel/core": "",
 		"command-line-args": ""
 	},
-	"scripts": {
-		"test": "node ./bin/buildCLI.js"
+	"bin": {
+		"argutia": "./bin/buildCLI.js"
 	},
 	"main": "src/Plugin.js",
 	"author": "Dani Glore",
