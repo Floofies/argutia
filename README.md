@@ -1,9 +1,9 @@
 # argutia
 Noun; clever use of words; verbal trickery; sophistry.
 
-Argutia is an incredibly basic JavaScript source code pre-processor plugin for Babel. Put simply, the plugin removes/retains specific source code based on user-supplied arguments. Source code is marked via a Labeled Statement followed by a String.
+Argutia is an incredibly basic JavaScript source code pre-processor plugin for Babel. Put simply, the plugin removes/retains specific source code based on user-supplied arguments.
 
-Here's some example source code which I've added a labeled string to. The labeled string marks the succeeding atom of source code to be removed or retained.
+A labeled string marks the succeeding atom of source code to be removed or retained. The string specifies the argument which must be supplied in order to retain the source code.
 
 ```JavaScript
 argutia:"keepFoo";
