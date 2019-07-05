@@ -23,7 +23,7 @@ const options = ["keepFoo"];
 const plugin = argutia(options)
 const source = "argutia:'keepFoo'; foo();";
 const output = babel.transform(source, {
-	plugins: [plugins],
+	plugins: [plugin],
 	comments: false
 });
 console.log(output.code);
